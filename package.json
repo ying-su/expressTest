@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "start": "nodemon ./server"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^2.3.2",
+        "express": "^4.13.0",
+        "mysql": "^2.16.0"
+    },
+    "devDependencies": {
+        "body-parser": "^1.18.3",
+        "nodemon": "^1.18.4",
+        "log4js": "^3.0.5"
+    }
+}

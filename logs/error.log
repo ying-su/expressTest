@@ -1,0 +1,277 @@
+[2018-09-18T15:26:48.649] [ERROR] cheese - { Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Handshake.js:124:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\testExpress\node_modules\mysql\lib\Connection.js:118:18)
+    at Object.exports.handleConnection (E:\testExpress\utils\util.js:13:16)
+    at Object.<anonymous> (E:\testExpress\app\routes.js:4:23)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true }
+[2018-09-18T16:06:36.471] [ERROR] cheese - { Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Handshake.js:124:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\testExpress\node_modules\mysql\lib\Connection.js:118:18)
+    at Object.exports.handleConnection (E:\testExpress\utils\util.js:13:16)
+    at Object.<anonymous> (E:\testExpress\app\routes.js:4:23)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true }
+[2018-09-18T16:09:14.937] [ERROR] cheese - { Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Handshake.js:124:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\testExpress\node_modules\mysql\lib\Connection.js:118:18)
+    at Object.exports.handleConnection (E:\testExpress\utils\util.js:13:16)
+    at Object.<anonymous> (E:\testExpress\app\routes.js:4:23)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true }
+[2018-09-18T16:25:08.874] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password="123456"' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password="123456"\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password="123456"' }
+[2018-09-18T16:26:05.678] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password="123456"' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password="123456"\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password="123456"' }
+[2018-09-18T16:26:42.759] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=sy and password=123456' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'=sy and password=123456\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username=sy and password=123456' }
+[2018-09-18T16:27:10.154] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password=123456' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password=123456\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password=123456' }
+[2018-09-18T16:27:46.901] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password="123456"' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password="123456"\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password="123456"' }
+[2018-09-18T16:28:17.071] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password="123456"' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password="123456"\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password="123456"' }
+[2018-09-18T16:29:16.226] [ERROR] cheese - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '="sy" and password="123456"' at line 1
+    at Query.Sequence._packetToError (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\testExpress\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (E:\testExpress\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (E:\testExpress\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    --------------------
+    at Protocol._enqueue (E:\testExpress\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\testExpress\node_modules\mysql\lib\Connection.js:200:25)
+    at app.post (E:\testExpress\app\routes.js:59:24)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\testExpress\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\testExpress\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\testExpress\node_modules\express\lib\router\layer.js:95:5)
+    at E:\testExpress\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\testExpress\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\testExpress\node_modules\express\lib\router\index.js:275:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'="sy" and password="123456"\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql: 'select * from test.userwhere username="sy" and password="123456"' }

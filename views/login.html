@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="form">
+		<div class="form-item">
+			<label for="">用户名</label>
+			<input type="text" placeholder="请输入用户名" id="userName">
+		</div>
+		<div class="form-item">
+			<label for="">密码</label>
+			<input type="password" placeholder="请输入密码" id="passWord">
+		</div>
+		<div class="btns">
+			<button type="button" id="login">登录</button>
+			<a href="/forgetPwd">忘记密码？</a>
+			<a href="/regist">注册新帐号</a>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script>
+		$('#login').on('click',function() {
+			 $.ajax({
+			 	url: '/api/login',
+			 	type: 'post',
+			 	data: {
+			 		userName: $('#userName').val(),
+			 		passWord: $('#passWord').val()
+			 	},
+			 	dataType: 'json',
+			 	success: function(data) {
+			 		if (data.Code == 200) {
+			 			alert(data.message)
+			 			setTimeout(()=> {
+			 				window.location.href = 'list'
+			 			},2000)
+			 		} else {
+			 			alert(data.message)
+			 		}
+			 	},
+			 	error: function(err) {
+			 		console.log(res)
+			 	}
+
+			 })
+		})
+	</script>
+</body>
+</html>
